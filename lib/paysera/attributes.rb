@@ -46,8 +46,7 @@ class Paysera::Attributes
       },
       :orderid     => {
           :maxlen   => 40,
-          :required => true,
-          :regex    => /^\d+$/
+          :required => true
       },
       :accepturl   => {
           :maxlen   => 255,
